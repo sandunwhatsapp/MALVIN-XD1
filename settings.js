@@ -12,7 +12,7 @@ PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "𝙎𝘼𝙉𝘿𝙐𝙉-𝙇𝘼𝙎𝘼𝙉𝙏𝙃𝘼",
 // add bot name here for menu
-MODE: process.env.MODE || "private",
+MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
 
 LINK_WHITELIST: "youtube.com,github.com",
@@ -65,7 +65,7 @@ LINK_WHITELIST: "youtube.com,github.com",
       CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
 
-          DELETE_LINKS: process.env.DELETE_LINKS || "false",
+          DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
 
           OWNER_NUMBER: process.env.OWNER_NUMBER || "0788550084",
@@ -80,7 +80,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ˢᵃⁿᵈᵘⁿ ᴋɪɴɢ",
         READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 
-                 AUTO_REACT: process.env.AUTO_REACT || "false",
+                 AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
                 ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
