@@ -80,7 +80,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ˢᵃⁿᵈᵘⁿ ᴋɪɴɢ",
         READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 
-                 AUTO_REACT: process.env.AUTO_REACT || "true",
+                 AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
                 ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
@@ -97,13 +97,13 @@ OWNER_NAME: process.env.OWNER_NAME || "ˢᵃⁿᵈᵘⁿ ᴋɪɴɢ",
         ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 
-         PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+         PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 
         AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing 
   
-   READ_CMD: process.env.READ_CMD || "false",
+   READ_CMD: process.env.READ_CMD || "true",
 // true if want mark commands as read 
 
      DEV: process.env.DEV || "0788550084",
