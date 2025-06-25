@@ -21,13 +21,13 @@ LINK_WHITELIST: "youtube.com,github.com",
 
     LINK_ACTION: "kick", // "kick", "mute", or "none"
 
-        AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+        AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
 
         AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 
-        AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+        AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto reply on status 
 
         AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*Just seen ur status 😆*",
@@ -59,7 +59,7 @@ LINK_WHITELIST: "youtube.com,github.com",
         STICKER_NAME: process.env.STICKER_NAME || "ˢᵃⁿᵈᵘⁿ-ˡᵃˢᵃⁿᵗʰᵃ",
 // type sticker pack name 
 
-        CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+        CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react  
   
       CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
@@ -80,7 +80,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ˢᵃⁿᵈᵘⁿ ᴋɪɴɢ",
         READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 
-                 AUTO_REACT: process.env.AUTO_REACT || "false",
+                 AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
                 ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
