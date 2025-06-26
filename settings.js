@@ -65,7 +65,7 @@ LINK_WHITELIST: "youtube.com,github.com",
       CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
 
-          DELETE_LINKS: process.env.DELETE_LINKS || "true",
+          DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
           OWNER_NUMBER: process.env.OWNER_NUMBER || "0788550084",
@@ -85,7 +85,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ˢᵃⁿᵈᵘⁿ ᴋɪɴɢ",
                 ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
 
-            ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
+            ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
 
         AUTO_STICKER: process.env.AUTO_STICKER || "true",
