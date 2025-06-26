@@ -1,13 +1,13 @@
 
 {
-  "name": "MALVIN-XD",
+  "name": "SANDUN-SL",
   "version": "0.0.6",
-  "description": "A WhatsApp Bot Created By Malvin King",
+  "description": "A WhatsApp Bot Created By Sandun-Lasantha",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name MALVIN-XD",
     "stop": "pm2 stop MALVIN-XD",
-    "restart": "pm2 restart MALVIN-XD"
+    "restart": "pm2 restart Sandun-SL"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:asitha-new-v99",
